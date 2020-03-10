@@ -4,9 +4,15 @@ namespace test
 {
     class Program
     {
-        static void Main(string[] args)
+       
+
+        public static void Main()
         {
-            Console.WriteLine("Hello World!");
+            Person mi = new Person();
+            mi.Gender = "春";
+            
         }
+
+        
     }
 }
