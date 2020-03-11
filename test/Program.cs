@@ -8,8 +8,9 @@ namespace test
 
         public static void Main()
         {
-            Person mi = new Person();
-            mi.Gender = "春";
+            Console.WriteLine("里程：");        
+            Ticket t = new Ticket(Convert.ToDouble(Console.ReadLine()));
+            t.ShowTicket();
             
         }
 
